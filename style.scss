@@ -1,0 +1,336 @@
+ blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+a {text-decoration: none; decoration: none;}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body { 
+  margin: 0 auto;
+  font-family: 微软雅黑,"microsoft yahei",宋体,新宋体; 
+  // max-width: 950px;
+  // padding: 80px;
+}
+
+.section {
+  .main-content {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+}
+
+.section-header {
+  text-align: center;
+  color: #474747;
+  .split {
+    height: 2px;
+    width: 108px;
+    background: #71c7d5;
+    margin: 18px auto 10px auto;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .eng-title {
+    font-size: 14px;
+  }
+  .first {
+    font-size: 18px;
+  }
+  .sec {
+    font-size: 14px;
+  }
+}
+
+.header {
+  padding-top: 50px;
+  .menu {
+    margin-top: 20px;
+    float: right;
+    color: #4F4542;
+    li {
+      display: inline-block;
+      width: 95px;
+      text-align: center;
+      span {
+        font-size: 16px;
+        display: block;
+      }
+      .eng {
+        font-size: 10px;
+      }
+      a:visited {
+        color: #4F4542;
+      }
+    }
+  }
+  .split {
+    background: #9C8B81;
+    margin-top: 20px;
+    height: 1px;
+    width: 100%;
+  }
+}
+
+.top {
+  padding: 20px 0 25px;
+  img {
+    max-width: 100%;
+  }
+  .intro {
+    margin-top: 25px;
+  }
+}
+
+.qa {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  p {
+    font-size: 12px;
+  }
+}
+
+.feature {
+  padding: 30px 0 55px;
+  background: #F3F3F3;
+  .main-content {
+    max-width: 750px;
+    .section-header {
+      margin-bottom: 35px;
+    }
+  }
+  img {
+    width: 310px;
+  }
+  .left {
+    width: 310px;
+    float: left;
+    margin-right: 75px;
+    img {
+      margin-top: 7px;
+    }
+  }
+  .right {
+    float: left;
+  }
+}
+
+.brief {
+  padding: 30px 0;
+  background: #E0E0E1;
+  .main-content {
+    max-width: 790px;
+  }
+  .bottom {
+    margin-top: 10px;
+  }
+  .context {
+    float: left;
+    width: 530px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+}
+
+.service {
+  padding: 40px 0 60px;
+  background: #FDFDFD;
+  .p-line {
+    margin-top: 30px;
+  }
+  .service-detail {
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    h4 {
+      font-size: 12px;
+      margin-bottom: 25px;
+    }
+    .words {
+      font-size: 14px;
+    }
+    p {
+      font-size: 18px;
+    }
+    .sd-eng {
+      font-size: 12px;
+    }
+  }
+}
+
+.section-img {
+  img {
+    width: 100%;
+  }
+}
+
+.team {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-top: 50px;
+  .p-line {
+    margin-top: 20px;
+  }
+  .profile {
+    width: 256px;
+    text-align: center;
+    display: inline-block;
+    &:not(:first-child) {
+      margin-left: 82px;
+    }
+    h1 {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .words {
+      font-size: 14px;
+    }
+  }
+  .professor {
+    margin: 60px 0;
+    img {
+      width: 350px;
+      float: left;
+    }
+    h1 {
+      font-size: 25px;
+    }
+    .professor-desc {
+      float: left;
+      width: 430px;
+      max-width: 100%;
+      margin-left: 50px;
+      li {
+        list-style-type: circle;
+        margin-left: 65px;
+        line-height: 1.4;
+      } 
+    }
+  }
+}
+
+.recruitment {
+  background: #F3F3F3;
+  padding: 30px 80px;
+  .mgb {
+    margin-bottom: 10px;
+  }
+  .left {
+    width: 300px;
+    h1 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .desc {
+      font-size: 14px;
+    }
+  }
+  .inline {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .middle {
+    width: 180px;
+    margin-left: 100px;
+    img {
+      width: 140px;
+    }
+  }
+  .right {
+    text-align: center;
+    p {
+      margin-top: 5px;
+    }
+  }
+}
+
+.contact {
+  padding: 30px 0;
+  .map {
+    text-align: center;
+    margin: 25px 0;
+    img {
+      width: 800px;
+      max-width: 100%;
+    }
+  }
+  .content {
+    padding: 0 78px;
+  }
+  .block {
+    float: left;
+  }
+  .qrs {
+    float: left;
+    margin-left: 32px;
+    img {
+      display: block;
+      width: 112px;
+      float: left;
+    }
+    p {
+      margin-left: 6px;
+      font-size: 13px;
+      width: 13px;
+      float: left;
+    }
+  }
+}
+
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .service {
+    .service-detail {
+      width: 100%;
+    }
+  }
+  .team {
+    .profile {
+      width: 100%;
+      margin-top: 30px;
+      &:not(:first-child) {
+        margin-left: 0;
+      }
+    }
+    .professor {
+      margin: 40px 0;
+      width: 100%;
+      li {
+        margin-left: 0;
+      }
+      .professor-desc {
+        margin-top: 25px;
+        margin-left: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+

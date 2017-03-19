@@ -1,0 +1,252 @@
+@charset "UTF-8";
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  decoration: none; }
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0; }
+
+.clearfix:after {
+  clear: both; }
+
+body {
+  margin: 0 auto;
+  font-family: 微软雅黑,"microsoft yahei",宋体,新宋体; }
+
+.section .main-content {
+  max-width: 950px;
+  margin: 0 auto; }
+
+.section-header {
+  text-align: center;
+  color: #474747; }
+  .section-header .split {
+    height: 2px;
+    width: 108px;
+    background: #71c7d5;
+    margin: 18px auto 10px auto; }
+  .section-header .title {
+    font-size: 25px; }
+  .section-header .eng-title {
+    font-size: 14px; }
+  .section-header .first {
+    font-size: 18px; }
+  .section-header .sec {
+    font-size: 14px; }
+
+.header {
+  padding-top: 50px; }
+  .header .menu {
+    margin-top: 20px;
+    float: right;
+    color: #4F4542; }
+    .header .menu li {
+      display: inline-block;
+      width: 95px;
+      text-align: center; }
+      .header .menu li span {
+        font-size: 16px;
+        display: block; }
+      .header .menu li .eng {
+        font-size: 10px; }
+      .header .menu li a:visited {
+        color: #4F4542; }
+  .header .split {
+    background: #9C8B81;
+    margin-top: 20px;
+    height: 1px;
+    width: 100%; }
+
+.top {
+  padding: 20px 0 25px; }
+  .top img {
+    max-width: 100%; }
+  .top .intro {
+    margin-top: 25px; }
+
+.qa {
+  text-align: center;
+  display: inline-block;
+  width: 33%; }
+  .qa p {
+    font-size: 12px; }
+
+.feature {
+  padding: 30px 0 55px;
+  background: #F3F3F3; }
+  .feature .main-content {
+    max-width: 750px; }
+    .feature .main-content .section-header {
+      margin-bottom: 35px; }
+  .feature img {
+    width: 310px; }
+  .feature .left {
+    width: 310px;
+    float: left;
+    margin-right: 75px; }
+    .feature .left img {
+      margin-top: 7px; }
+  .feature .right {
+    float: left; }
+
+.brief {
+  padding: 30px 0;
+  background: #E0E0E1; }
+  .brief .main-content {
+    max-width: 790px; }
+  .brief .bottom {
+    margin-top: 10px; }
+  .brief .context {
+    float: left;
+    width: 530px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 40px; }
+
+.service {
+  padding: 40px 0 60px;
+  background: #FDFDFD; }
+  .service .p-line {
+    margin-top: 30px; }
+  .service .service-detail {
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top; }
+    .service .service-detail:not(:first-child) {
+      margin-left: 10px; }
+    .service .service-detail h3 {
+      font-size: 18px;
+      margin-top: 10px; }
+    .service .service-detail h4 {
+      font-size: 12px;
+      margin-bottom: 25px; }
+    .service .service-detail .words {
+      font-size: 14px; }
+    .service .service-detail p {
+      font-size: 18px; }
+    .service .service-detail .sd-eng {
+      font-size: 12px; }
+
+.section-img img {
+  width: 100%; }
+
+.team {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-top: 50px; }
+  .team .p-line {
+    margin-top: 20px; }
+  .team .profile {
+    width: 256px;
+    text-align: center;
+    display: inline-block; }
+    .team .profile:not(:first-child) {
+      margin-left: 82px; }
+    .team .profile h1 {
+      font-size: 18px;
+      margin-top: 10px; }
+    .team .profile .words {
+      font-size: 14px; }
+  .team .professor {
+    margin: 60px 0; }
+    .team .professor img {
+      width: 350px;
+      float: left; }
+    .team .professor h1 {
+      font-size: 25px; }
+    .team .professor .professor-desc {
+      float: left;
+      width: 430px;
+      max-width: 100%;
+      margin-left: 50px; }
+      .team .professor .professor-desc li {
+        list-style-type: circle;
+        margin-left: 65px;
+        line-height: 1.4; }
+
+.recruitment {
+  background: #F3F3F3;
+  padding: 30px 80px; }
+  .recruitment .mgb {
+    margin-bottom: 10px; }
+  .recruitment .left {
+    width: 300px; }
+    .recruitment .left h1 {
+      font-size: 25px; }
+    .recruitment .left h3 {
+      font-size: 14px; }
+    .recruitment .left p {
+      font-size: 20px; }
+    .recruitment .left .desc {
+      font-size: 14px; }
+  .recruitment .inline {
+    display: inline-block;
+    vertical-align: top; }
+  .recruitment .middle {
+    width: 180px;
+    margin-left: 100px; }
+    .recruitment .middle img {
+      width: 140px; }
+  .recruitment .right {
+    text-align: center; }
+    .recruitment .right p {
+      margin-top: 5px; }
+
+.contact {
+  padding: 30px 0; }
+  .contact .map {
+    text-align: center;
+    margin: 25px 0; }
+    .contact .map img {
+      width: 800px;
+      max-width: 100%; }
+  .contact .content {
+    padding: 0 78px; }
+  .contact .block {
+    float: left; }
+  .contact .qrs {
+    float: left;
+    margin-left: 32px; }
+    .contact .qrs img {
+      display: block;
+      width: 112px;
+      float: left; }
+    .contact .qrs p {
+      margin-left: 6px;
+      font-size: 13px;
+      width: 13px;
+      float: left; }
+
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 16px; }
+
+@media screen and (max-width: 768px) {
+  .service .service-detail {
+    width: 100%; }
+
+  .team .profile {
+    width: 100%;
+    margin-top: 30px; }
+    .team .profile:not(:first-child) {
+      margin-left: 0; }
+  .team .professor {
+    margin: 40px 0;
+    width: 100%; }
+    .team .professor li {
+      margin-left: 0; }
+    .team .professor .professor-desc {
+      margin-top: 25px;
+      margin-left: 0;
+      text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
