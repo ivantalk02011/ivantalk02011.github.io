@@ -55,7 +55,7 @@ body {
         display: block; }
       .header .menu li .eng {
         font-size: 10px; }
-      .header .menu li a:visited {
+      .header .menu li a, .header .menu li a:visited {
         color: #4F4542; }
   .header .split {
     background: #9C8B81;
@@ -231,8 +231,33 @@ body {
   font-size: 16px; }
 
 @media screen and (max-width: 768px) {
+  .header {
+    text-align: center; }
+    .header .menu {
+      float: none; }
+      .header .menu li {
+        width: 100%; }
+
+  .qa {
+    margin-top: 20px;
+    width: 100%; }
+
+  .feature .left {
+    width: 100%;
+    margin-right: 0;
+    float: none; }
+  .feature img {
+    width: 100%; }
+
+  .brief .bottom {
+    padding: 0 20px; }
+  .brief .context-pic img {
+    width: 100%; }
+
   .service .service-detail {
     width: 100%; }
+    .service .service-detail:not(:first-child) {
+      margin-left: 0; }
 
   .team .profile {
     width: 100%;
@@ -247,6 +272,29 @@ body {
     .team .professor .professor-desc {
       margin-top: 25px;
       margin-left: 0;
-      text-align: center; } }
+      text-align: center; }
+      .team .professor .professor-desc li {
+        margin-left: 0;
+        line-height: 1.5;
+        font-size: 13px; }
+
+  .recruitment {
+    padding: 30px; }
+    .recruitment .left {
+      width: 100%; }
+    .recruitment .middle {
+      text-align: center;
+      width: 100%;
+      float: none;
+      margin-left: 0;
+      margin: 10px 0; }
+
+  .contact .content {
+    padding: 0 30px; }
+  .contact .block p {
+    line-height: 1.5; }
+  .contact .qrs {
+    float: none;
+    margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

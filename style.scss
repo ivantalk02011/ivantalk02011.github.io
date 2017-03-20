@@ -14,8 +14,6 @@ a {text-decoration: none; decoration: none;}
 body { 
   margin: 0 auto;
   font-family: 微软雅黑,"microsoft yahei",宋体,新宋体; 
-  // max-width: 950px;
-  // padding: 80px;
 }
 
 .section {
@@ -65,7 +63,7 @@ body {
       .eng {
         font-size: 10px;
       }
-      a:visited {
+      a, a:visited {
         color: #4F4542;
       }
     }
@@ -306,9 +304,45 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    text-align: center;
+    .menu {
+      float: none;
+      li {
+        width: 100%;
+      }
+    }
+  }
+  .qa {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .feature {
+    .left {
+      width: 100%;
+      margin-right: 0;
+      float: none;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .brief {
+    .bottom {
+      padding: 0 20px;
+    }
+    .context-pic {
+      img {
+        width: 100%;
+      }
+    }
+  }
   .service {
     .service-detail {
       width: 100%;
+      &:not(:first-child) {
+        margin-left: 0;
+      }
     }
   }
   .team {
@@ -329,7 +363,39 @@ body {
         margin-top: 25px;
         margin-left: 0;
         text-align: center;
+        li {
+          margin-left: 0;
+          line-height: 1.5;
+          font-size: 13px;
+        }
       }
+    }
+  }
+  .recruitment {
+    padding: 30px;
+    .left {
+      width: 100%;
+    }
+    .middle {
+      text-align: center;
+      width: 100%;
+      float: none;
+      margin-left: 0;
+      margin: 10px 0;
+    }
+  }
+  .contact {
+    .content {
+      padding: 0 30px;
+    }
+    .block {
+      p {
+        line-height: 1.5;
+      }
+    }
+    .qrs {
+      float: none;
+      margin-left: 0;
     }
   }
 }
