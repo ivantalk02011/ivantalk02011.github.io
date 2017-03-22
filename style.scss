@@ -13,7 +13,7 @@ a {text-decoration: none; decoration: none;}
 
 body { 
   margin: 0 auto;
-  font-family: 微软雅黑,"microsoft yahei",宋体,新宋体; 
+  font-family: arial,'新宋体',sans-serif,'宋体';
 }
 
 .section {
@@ -136,6 +136,11 @@ body {
     margin-top: 20px;
     margin-right: 40px;
   }
+  .context-pic {
+    img {
+      width: 160px;
+    }
+  }
 }
 
 .service {
@@ -217,7 +222,7 @@ body {
       margin-left: 50px;
       li {
         list-style-type: circle;
-        margin-left: 65px;
+        margin-left: 30px;
         line-height: 1.4;
       } 
     }
@@ -261,6 +266,9 @@ body {
     p {
       margin-top: 5px;
     }
+    a {
+      color: #777;
+    }
   }
 }
 
@@ -279,6 +287,9 @@ body {
   }
   .block {
     float: left;
+    a {
+      color: #777;
+    }
   }
   .qrs {
     float: left;
@@ -356,6 +367,9 @@ body {
     .professor {
       margin: 40px 0;
       width: 100%;
+      img {
+        width: 100%;
+      }
       li {
         margin-left: 0;
       }

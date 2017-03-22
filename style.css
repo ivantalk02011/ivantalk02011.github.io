@@ -17,7 +17,7 @@ a {
 
 body {
   margin: 0 auto;
-  font-family: 微软雅黑,"microsoft yahei",宋体,新宋体; }
+  font-family: arial,'新宋体',sans-serif,'宋体'; }
 
 .section .main-content {
   max-width: 950px;
@@ -108,6 +108,8 @@ body {
     max-width: 100%;
     margin-top: 20px;
     margin-right: 40px; }
+  .brief .context-pic img {
+    width: 160px; }
 
 .service {
   padding: 40px 0 60px;
@@ -169,7 +171,7 @@ body {
       margin-left: 50px; }
       .team .professor .professor-desc li {
         list-style-type: circle;
-        margin-left: 65px;
+        margin-left: 30px;
         line-height: 1.4; }
 
 .recruitment {
@@ -199,6 +201,8 @@ body {
     text-align: center; }
     .recruitment .right p {
       margin-top: 5px; }
+    .recruitment .right a {
+      color: #777; }
 
 .contact {
   padding: 30px 0; }
@@ -212,6 +216,8 @@ body {
     padding: 0 78px; }
   .contact .block {
     float: left; }
+    .contact .block a {
+      color: #777; }
   .contact .qrs {
     float: left;
     margin-left: 32px; }
@@ -267,6 +273,8 @@ body {
   .team .professor {
     margin: 40px 0;
     width: 100%; }
+    .team .professor img {
+      width: 100%; }
     .team .professor li {
       margin-left: 0; }
     .team .professor .professor-desc {
