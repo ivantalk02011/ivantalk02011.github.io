@@ -1,8 +1,8 @@
 <?php
 $urls = array(
-'http://www.nyhtc.cn.com',
-'http://www.nyhtc.cn.com/a.html',
-'http://www.nyhtc.cn.com/sitemap.txt',
+'http://www.nyhtc.cn',
+'http://www.nyhtc.cn/a.html',
+'http://www.nyhtc.cn/sitemap.txt',
 );
 $api = 'http://data.zz.baidu.com/urls?site=nyhtc.cn&token=A5xMG3q1OW2V5oI6';
 $ch = curl_init();
